@@ -1,0 +1,334 @@
+
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+ }
+body{
+    background-image: url(aq2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0 0 0 ;
+}
+.text{
+   padding:10% 0 0 20%;
+   line-height: 40px; 
+}
+button{
+    color:white;width: 25%;
+    height: 10vh;
+    border-radius: 20px;
+    border: 1px solid rgb(235, 234, 241);background: transparent;font-weight: bold;
+}
+
+button:hover{
+    transform: scale(0.80);
+}
+.babuls{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 52px;
+    width: 100%;
+    
+    
+}
+.bu,.bu1,.bu2{
+    width: 30px;border-radius: 50%;z-index: 1;
+}
+.bu1{
+    width: 40px;border-radius: 50%;z-index: 1;
+}
+.bu2{
+    width: 59px;border-radius: 50%;z-index: 1;
+}
+    
+.sidebar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px 0 13px 0;
+   
+    height: 1vh;
+    position: relative;
+    margin-top:14% ;
+    
+}
+.sidebar img:hover{
+    border-radius: 50%; transform: scale(0.80);
+}
+.babuls img {
+ margin-left: 45px;
+    animation: babuls 7s linear infinite;
+}
+@keyframes babuls{
+    0%{
+       opacity: 0;
+       transform: translateY(0);
+    }
+    25%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-99vh);
+    }    
+}
+.babuls img:nth-child(1){
+    animation-delay: 5s;
+}
+.babuls img:nth-child(2){
+    animation-delay: 1s;
+}
+.babuls img:nth-child(3){
+    animation-delay: 4s;
+}
+.babuls img:nth-child(4){
+    animation-delay: 6s;
+}
+.babuls img:nth-child(5){
+    animation-delay: 1s;
+}
+.babuls img:nth-child(6){
+    animation-delay: 5s;
+}
+.babuls img:nth-child(7){
+    animation-delay: 4s; 
+}
+
+@media screen and (max-width:600px) {
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   color: white;
+   }
+   body{
+    background-image: url(aq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;width: 100%;
+   }
+   header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0 0 0;
+    position: absolute;width: 90%;
+    
+   }
+   .text{
+    margin: 25% 0 0 20%;
+    line-height: 40px;
+    position: absolute;
+    
+   }
+  
+   .sidebar{
+    display: block;
+    background: transparent;
+    position: absolute; 
+    margin-left: 94.5%;
+    line-height: 300%;
+    margin-top: 1%;
+   
+  
+    
+
+   }
+   .sidebar img{
+    background-color: blueviolet;
+   }
+   
+   .sidebar img:hover{
+    border-radius: 50%; transform: scale(0.80);
+}
+   button{
+    color:white;width: 15%;
+    height: 7vh;
+    border-radius: 20px;
+    border: 1px solid rgb(235, 234, 241);background: transparent;font-weight: bold;
+}
+
+button:hover{
+    transform: scale(0.80);
+}
+.bt1{
+    color:white;width: 55%;
+    height: 10vh;
+    border-radius: 20px;
+    border: 1px solid rgb(235, 234, 241);background: transparent;font-weight: bold;
+}
+.bt1:hover{
+    transform: scale(0.80);}
+.babuls{
+    position: absolute;
+   display: block;
+    margin-top: 50%;
+    
+}
+.bu,.bu1,.bu2{
+    width: 30px;border-radius: 50%;z-index: 1;
+}
+.bu1{
+    width: 40px;border-radius: 50%;z-index: 1;
+}
+.bu2{
+    width: 59px;border-radius: 50%;z-index: 1;
+}
+.babuls img {
+    margin-left: 45px;
+    animation: babuls 7s linear infinite;
+}
+@keyframes babuls{
+    0%{
+       opacity: 0;
+       transform: translateY(0);
+    }
+    25%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-99vh);
+    }
+}
+.babuls img:nth-child(1){
+    animation-delay: 5s;
+}
+.babuls img:nth-child(2){
+    animation-delay: 1s;
+}
+.babuls img:nth-child(3){
+    animation-delay: 4s;
+}
+.babuls img:nth-child(4){
+    animation-delay: 6s;
+}
+.babuls img:nth-child(5){
+    animation-delay: 1s;
+}
+.babuls img:nth-child(6){
+    animation-delay: 5s;
+}
+.babuls img:nth-child(7){
+    animation-delay: 4s; 
+}
+}
+
+@media screen and (max-width:450px){
+    *{
+        color: white;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body
+    {background-image: url(aqurisam.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+   header{
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;margin-top: 10px;
+   }
+   .text{
+    text-align: center;padding-left: 20px;
+    padding-top: 20px;line-height: 40px;
+   }
+   .babuls{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 52px;
+    width: 100%;
+    
+    
+}
+.bu,.bu1,.bu2{
+    width: 30px;border-radius: 50%;z-index: 1;
+}
+.bu1{
+    width: 40px;border-radius: 50%;z-index: 1;
+}
+.bu2{
+    width: 59px;border-radius: 50%;z-index: 1;
+}
+    
+.babuls img {
+    margin-left: 45px;
+       animation: babuls 7s linear infinite;
+   }
+   @keyframes babuls{
+       0%{
+          opacity: 0;
+          transform: translateY(0);
+       }
+       25%{
+           opacity: 1;
+       }
+       75%{
+           opacity: 1;
+       }
+       100%{
+           opacity: 0;
+           transform: translateY(-99vh);
+       }    
+   }
+   .babuls img:nth-child(1){
+       animation-delay: 5s;
+   }
+   .babuls img:nth-child(2){
+       animation-delay: 1s;
+   }
+   .babuls img:nth-child(3){
+       animation-delay: 4s;
+   }
+   .babuls img:nth-child(4){
+       animation-delay: 6s;
+   }
+   .babuls img:nth-child(5){
+       animation-delay: 1s;
+   }
+   .babuls img:nth-child(6){
+       animation-delay: 5s;
+   }
+   .babuls img:nth-child(7){
+       animation-delay: 4s; 
+   }
+   .sidebar{
+  padding-top: 10px;
+}
+.sidebar img:hover{
+    border-radius: 50%; transform: scale(0.80);
+}
+button{
+    color:white;width: 25%;
+    height: 10vh;
+    border-radius: 20px;
+    border: 1px solid rgb(235, 234, 241);background: transparent;font-weight: bold;
+}
+
+button:hover{
+    transform: scale(0.80);
+}
+}
